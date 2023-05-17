@@ -7,7 +7,8 @@ description: rse.group.cam.ac.uk
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: rse-website
+url: 'https://chrisrichardson.github.io'
+baseurl: '/rse-website'
 
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: ''
