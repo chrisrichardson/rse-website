@@ -1,0 +1,29 @@
+{% include header.html %}
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs mt-3">
+            {% include sidebar.html %}
+        </div>
+        <div class="col-md-9 mt-3">
+          <div class="article">
+            <div class="well">
+                <h1><a href="{{ page.link }}">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
+            <div class="post-content">
+            {{ content }}
+            </div>
+            </div>
+          </div>
+          <div class="pagination">
+              {% if page.next %}
+                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.next.url }}" class="next">Next Item</a>
+              {% endif %}
+              {% if page.previous %}
+                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">Previous Item</a>
+              {% endif %}
+          </div>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

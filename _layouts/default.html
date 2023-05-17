@@ -1,0 +1,14 @@
+{% include header.html %}
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 d-none d-md-block mt-3">
+            {% include sidebar.html %}
+        </div>
+        <div class="col-md-9 mt-3">
+            {{ content }}
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

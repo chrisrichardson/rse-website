@@ -1,0 +1,11 @@
+
+<figure>
+<img alt="{{include.alt}}" src="{{include.src}}" width="100%">
+<figcaption>
+{% if include.link %}
+<a href="{{include.link}}">{{include.title}}</a>
+{% else %}
+<i>{{include.title}}</i>
+{% endif %}
+</figcaption>
+</figure>
