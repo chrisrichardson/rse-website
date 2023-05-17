@@ -21,10 +21,13 @@ The Institute of Computing for Climate Science studies and supports
 the role of software engineering, computer science, artificial
 intelligence, and data science within climate science.
 
-
 #### Departmental Research Software Engineers
 
+- [Luke Abraham - Chemistry](https://www.ch.cam.ac.uk/person/nla27)
+- [Philip Blakely - CSC](https://www.lsc.phy.cam.ac.uk/directory/blakely)
 - [Leila Muresan - CAIC](https://caic.bio.cam.ac.uk/directory/leila)
-- [Chris Richardson - IEEF]()
-- [Luke Abraham - Chemistry]()
-- [Philip Blakely - CSC]()
+- [Chris Richardson - IEEF](https://www.ieef.cam.ac.uk/user/cnr12)
+- [Miren Radia - DAMTP](https://www.maths.cam.ac.uk/person/mr618)
+- [James Sharkey - CL](https://www.cst.cam.ac.uk/people/jps79)
+
+If you would like to be included here, [please let us know](contact).
